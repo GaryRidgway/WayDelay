@@ -1,6 +1,6 @@
 {
   "name": "waydelay",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple asynchronous delay library.",
   "main": "waydelay.js",
   "scripts": {

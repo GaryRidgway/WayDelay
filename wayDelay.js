@@ -5,7 +5,7 @@
  * @param {number} time // Measured in milliseconds (1000ms = 1s).
  * @param {function} action
  */
-exports.delay = (time, action) => {
+export function delay(time, action) {
 
   // Create a promise that will delay.
   const delay = (delayInMs) => {
