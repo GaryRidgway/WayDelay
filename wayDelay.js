@@ -1,3 +1,4 @@
+
 /**
  * Delay an `action` for `time`
  * and then run the `action` asynchronously to other JavaScript.
@@ -22,5 +23,10 @@ const waydelay = (time, action) => {
   waydelayedAction();
 }
 
-module.exports = { waydelay }
-exports.waydelay = waydelay;
+define(function (require, exports, module) {
+
+  module.exports = {
+    waydelay: require('./waydelay.js')
+  };
+
+});
