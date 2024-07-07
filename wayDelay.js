@@ -5,7 +5,7 @@
  * @param {number} time // Measured in milliseconds (1000ms = 1s).
  * @param {function} action
  */
-const waydelay = (time, action) => {
+exports.delay = (time, action) => {
 
   // Create a promise that will delay.
   const delay = (delayInMs) => {
@@ -21,6 +21,3 @@ const waydelay = (time, action) => {
   // Finally, call the function that puts it all together.
   waydelayedAction();
 }
-
-const _waydelay = waydelay;
-export { _waydelay as waydelay };
