@@ -5,7 +5,7 @@
  * @param {number} time // Measured in milliseconds (1000ms = 1s).
  * @param {function} action
  */
-const wayDelay = (time, action) => {
+const waydelay = (time, action) => {
 
   // Create a promise that will delay.
   const delay = (delayInMs) => {
@@ -13,14 +13,14 @@ const wayDelay = (time, action) => {
   }
 
   // Make the promise, wait for it to complete, then run the `action`.
-  const wayDelayedAction = async () => {
+  const waydelayedAction = async () => {
     let delayRes = await delay(time);
     action();
   }
 
   // Finally, call the function that puts it all together.
-  wayDelayedAction();
+  waydelayedAction();
 }
 
-const _wayDelay = wayDelay;
-export { _wayDelay as wayDelay };
+const _waydelay = waydelay;
+export { _waydelay as waydelay };

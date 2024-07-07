@@ -1,10 +1,10 @@
-# wayDelay
+# waydelay
 A small library for asynchronous delay calls with JS.
 
 ### Example usage with anonymous function:
 
 ```
-wayDelay(
+waydelay(
     3000, // Measured in milliseconds (3000ms = 3s).
     function() {
         console.log('Hello world.');
@@ -19,7 +19,7 @@ function yourFunction(yourArguments) {
     console.log(yourArguments);
 }
 
-wayDelay(
+waydelay(
     3000, // Measured in milliseconds (3000ms = 3s).
     yourFunction('Hello world.')
 );
@@ -27,5 +27,5 @@ wayDelay(
 
 Copy this for easy use!
 ```
-<script src="https://cdn.jsdelivr.net/gh/garyridgway/wayDelay/wayDelay.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/garyridgway/waydelay/waydelay.js"></script>
 ```

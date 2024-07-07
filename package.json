@@ -1,18 +1,18 @@
 {
-  "name": "wayDelay",
+  "name": "waydelay",
   "version": "1.0.0",
   "description": "A simple asynchronous delay library.",
-  "main": "wayDelay.js",
+  "main": "waydelay.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GaryRidgway/wayDelay.git"
+    "url": "git+https://github.com/GaryRidgway/waydelay.git"
   },
   "keywords": [
     "way",
-    "wayDelay",
+    "waydelay",
     "asynchronous",
     "async",
     "delay"
@@ -20,7 +20,7 @@
   "author": "Alan Way",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GaryRidgway/wayDelay/issues"
+    "url": "https://github.com/GaryRidgway/waydelay/issues"
   },
-  "homepage": "https://github.com/GaryRidgway/wayDelay#readme"
+  "homepage": "https://github.com/GaryRidgway/waydelay#readme"
 }
